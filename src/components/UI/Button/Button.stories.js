@@ -17,3 +17,8 @@ Primary.args = {
   primary: true,
   label: 'Button',
 };
+export const Secondary = Template.bind({});
+Secondary.args = {
+  primary: false,
+  label: 'Button',
+};

@@ -1,0 +1,22 @@
+.typography {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+  .typography--primary {
+    color: #E6692E;
+  }
+  .typography--secondary {
+    color: #111012;
+  }
+  .typography--heading {
+    font-size: 30px;
+    font-weight: 600 !important;
+  }
+  .typography--subheading {
+    font-size: 20px;
+    font-weight: 600 !important;
+  }
+  .typography--paragraph {
+    font-size: 18px;
+  }
+  
