@@ -46,12 +46,12 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
 );
 
 Header.propTypes = {
-  user: PropTypes.shape({ name: PropTypes.func.isRequired }),
+  user: PropTypes.shape({}),
   onLogin: PropTypes.func.isRequired,
   onLogout: PropTypes.func.isRequired,
-  onCreateAccount: PropTypes.func.isRequired
+  onCreateAccount: PropTypes.func.isRequired,
 };
 
 Header.defaultProps = {
-  user: null
+  user: null,
 };
