@@ -11,7 +11,7 @@ export const Header = () => {
       <div className="navigation">
         {navbar.map((ele) => {
           return (
-            <div className="elements">
+            <div className="elements" key={ele.id}>
               <Typography size={"paragraph"} primary={false} text={ele?.main} />
               {ele?.subcontent ? <img src={arrow} alt="" /> : null}
             </div>

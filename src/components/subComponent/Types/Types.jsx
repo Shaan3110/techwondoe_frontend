@@ -8,7 +8,7 @@ export const Types = () => {
     <div className="types">
       {types.map((ele) => {
         return (
-          <div className="type">
+          <div className="type" key={ele.id}>
             <img src={ele?.img} alt="loading..." />
             <Typography size={"subheading"} primary={false} text={ele?.title} />
             <Typography

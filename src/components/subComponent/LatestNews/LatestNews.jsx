@@ -17,7 +17,7 @@ export const LatestNews = () => {
       <div className="latestnews_sections">
         {latestnews.map((ele) => {
           return (
-            <div className="latestnews_section">
+            <div className="latestnews_section" key={ele.id}>
               <img src={ele?.src} alt="loading..." id="news_image"/>
               <div className="latestnews_author">
                 <Typography

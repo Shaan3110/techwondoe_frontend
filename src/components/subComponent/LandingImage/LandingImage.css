@@ -1,7 +1,13 @@
 .landingImg{
     background-image: url("../../../assets/images/Section1.png");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 90vh;
+}
+@media screen and (max-width:950px){
+    .landingImg{
+        background-size: cover cover;
+        height: 30vh;
+    }
 }
