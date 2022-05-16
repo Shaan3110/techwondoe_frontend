@@ -23,3 +23,19 @@
     width: 30%;
     margin: 6px;
 }
+@media screen and (max-width:1000px){
+    .ourteam{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .ourteam_details{
+        width: 100%;
+        text-align: center;
+    }
+    .ourteam_button{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}

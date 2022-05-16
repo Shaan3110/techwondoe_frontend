@@ -31,3 +31,18 @@
     width: 30%;
     align-items: center;
 }
+
+@media screen and (max-width:1100px){
+    .links{
+        width: 50%;
+        
+    }
+    .footer{
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+    .footer_navigation{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
