@@ -5,6 +5,7 @@ import { Features } from '../../components/subComponent/Features/Features'
 import { OurTeam } from '../../components/subComponent/OurTeam/OurTeam'
 import { Types } from '../../components/subComponent/Types/Types'
 import { LatestNews } from '../../components/subComponent/LatestNews/LatestNews'
+import { ContactUs } from '../../components/subComponent/ContactUs/ContactUs'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <OurTeam/>
         <LatestNews/>
         <Types/>
+        <ContactUs/>
     </>
   )
 }

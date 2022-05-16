@@ -1,0 +1,17 @@
+.contactus{
+    background-color: #E6692E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0rem;
+}
+.contactus h1{
+    color:#ffffff;
+    margin: 1rem 0rem;
+}
+.connectus_tagline{
+    width: 60%;
+    text-align: center;
+    word-wrap: break-word;
+}
