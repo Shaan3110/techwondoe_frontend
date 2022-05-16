@@ -2,7 +2,7 @@ import React from "react";
 import { Typography } from "../../UI/Typography/Typography";
 import tick from "../../../assets/images/tick.png";
 import "./Features.css";
-import { features } from "../../../assets/data/data";
+import { features } from "../../../assets/data/features";
 
 export const Features = () => {
   return (

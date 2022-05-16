@@ -2,31 +2,19 @@ import React from "react";
 import "./Header.css";
 import { Typography } from "../../UI/Typography/Typography";
 import arrow from '../../../assets/images/arrow.png'
+import { navbar } from "../../../assets/data/navbar";
 
 export const Header = () => (
   <header>
     <div className="navigation">
-        <div className="elements">
-            <Typography size={"paragraph"} primary={false} text={"About"}/>
-            <img src={arrow} alt="" />
-        </div>
-        <div className="elements">
-            <Typography size={"paragraph"} primary={false} text={"Job Search"}/>
-        </div>
-        <div className="elements">
-            <Typography size={"paragraph"} primary={false} text={"Candidates"}/>
-            <img src={arrow} alt="" />
-        </div>
-        <div className="elements">
-            <Typography size={"paragraph"} primary={false} text={"Employers"}/>
-            <img src={arrow} alt="" />
-        </div>
-        <div className="elements">
-            <Typography size={"paragraph"} primary={false} text={"Latest News"}/>
-        </div>
-        <div className="elements">
-            <Typography size={"paragraph"} primary={false} text={"Contact"}/>
-        </div>
+        {
+            navbar.map((ele)=> {
+                return <div className="elements">
+                <Typography size={"paragraph"} primary={false} text={ele?.main}/>
+                {ele?.subcontent?<img src={arrow} alt="" />:null}
+            </div>
+            })
+        }
     </div>
   </header>
 );
