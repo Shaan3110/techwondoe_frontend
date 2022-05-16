@@ -18,7 +18,7 @@ export const LatestNews = () => {
         {latestnews.map((ele) => {
           return (
             <div className="latestnews_section">
-              <img src={ele?.src} alt="loading..." />
+              <img src={ele?.src} alt="loading..." id="news_image"/>
               <div className="latestnews_author">
                 <Typography
                   size={"paragraph"}
