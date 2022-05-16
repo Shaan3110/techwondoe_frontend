@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    width: 100%;
+}
+.socials {
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 2rem 1rem;
+}
+.footer_navigation{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_navigation h1{
+    margin: 1rem 0rem;
+    line-height: 30px;
+    text-align: center;
+}
+.socials h1{
+    margin: 0rem 1rem;
+    font-weight: 600;
+}
+.footer img{
+    margin: 0rem 1rem;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+}

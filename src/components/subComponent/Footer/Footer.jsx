@@ -1,26 +1,68 @@
 import React from "react";
 import "./Footer.css";
+import instagram from "../../../assets/images/instagram_logo.png";
 import { Typography } from "../../UI/Typography/Typography";
-import { Button } from "../../UI/Button/Button";
+import {
+  footer_link1,
+  footer_link2,
+  footer_link3,
+  footer_link4,
+} from "../../../assets/data/footer";
 
-export const ContactUs = () => {
+export const Footer = () => {
   return (
-    <div className="contactus">
-      <Typography
-        size={"heading"}
-        primary={false}
-        text={"Speak to a Career Expert"}
-      />
-      <div className="connectus_tagline">
-        <Typography
-          size={"paragraph"}
-          primary={false}
-          text={
-            "We have are dedicated to finding the best fit for you. Get in touch to organise a face-to-face cactch up with somone from our team"
-          }
-        />
+    <div className="footer">
+      <div className="socials">
+        <Typography size={"paragraph"} primary={true} text={"f"} />
+        <Typography size={"paragraph"} primary={true} text={"in"} />
+        <img src={instagram} alt="instagram" />
       </div>
-      <Button primary={false} size={"large"} label={"Get in touch"} />
+      <div className="footer_navigation">
+        <div className="links">
+          {footer_link1.map((ele) => {
+            return (
+              <Typography
+                size={"paragraph"}
+                primary={false}
+                text={ele?.title}
+              />
+            );
+          })}
+        </div>
+        <div className="links">
+          {footer_link2.map((ele) => {
+            return (
+              <Typography
+                size={"paragraph"}
+                primary={false}
+                text={ele?.title}
+              />
+            );
+          })}
+        </div>
+        <div className="links">
+          {footer_link3.map((ele) => {
+            return (
+              <Typography
+                size={"paragraph"}
+                primary={false}
+                text={ele?.title}
+              />
+            );
+          })}
+        </div>
+        <div className="links" style={{ width: "40%" }}>
+          {footer_link4.map((ele) => {
+            return (
+              <Typography
+                size={"paragraph"}
+                primary={false}
+                text={ele?.title}
+              />
+            );
+          })}
+        </div>
+      </div>
     </div>
   );
 };
