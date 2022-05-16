@@ -6,6 +6,8 @@ import { OurTeam } from '../../components/subComponent/OurTeam/OurTeam'
 import { Types } from '../../components/subComponent/Types/Types'
 import { LatestNews } from '../../components/subComponent/LatestNews/LatestNews'
 import { ContactUs } from '../../components/subComponent/ContactUs/ContactUs'
+import { Footer } from '../../components/subComponent/Footer/Footer'
+import { Copyright } from '../../components/subComponent/Copyright/Copyright'
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
         <LatestNews/>
         <Types/>
         <ContactUs/>
+        <Footer/>
+        <Copyright/>
     </>
   )
 }

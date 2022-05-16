@@ -1,0 +1,11 @@
+.copyright{
+    background-color: #EDEDED;
+    width: 100%;
+    padding: 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright h1{
+    text-align: center;
+}
