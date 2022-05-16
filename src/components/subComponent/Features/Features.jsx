@@ -21,7 +21,7 @@ export const Features = () => {
       <div className="segments">
         {features.map((ele) => {
           return (
-            <div className="segment">
+            <div className="segment" key={ele.id}>
               <div className="segment_heading">
                 <img src={tick} alt="" />
                 <Typography

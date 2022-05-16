@@ -2,7 +2,7 @@ import React from "react";
 import "./Button.css";
 import PropTypes from "prop-types";
 
-export const Button = ({ primary, backgroundColor, props, label, size }) => {
+export const Button = ({ primary, backgroundColor,label, size }) => {
   const mode = primary
     ? "button--primary"
     : "button--secondary";
@@ -13,7 +13,6 @@ export const Button = ({ primary, backgroundColor, props, label, size }) => {
         " "
       )}
       style={backgroundColor && { backgroundColor }}
-      {...props}
     >
       {label}
     </button>

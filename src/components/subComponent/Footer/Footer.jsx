@@ -22,6 +22,7 @@ export const Footer = () => {
           {footer_link1.map((ele) => {
             return (
               <Typography
+                key={ele.id}
                 size={"paragraph"}
                 primary={false}
                 text={ele?.title}
@@ -33,6 +34,7 @@ export const Footer = () => {
           {footer_link2.map((ele) => {
             return (
               <Typography
+                key={ele.id}
                 size={"paragraph"}
                 primary={false}
                 text={ele?.title}
@@ -44,6 +46,7 @@ export const Footer = () => {
           {footer_link3.map((ele) => {
             return (
               <Typography
+                key={ele.id}
                 size={"paragraph"}
                 primary={false}
                 text={ele?.title}
@@ -55,6 +58,7 @@ export const Footer = () => {
           {footer_link4.map((ele) => {
             return (
               <Typography
+                key={ele.id}
                 size={"paragraph"}
                 primary={false}
                 text={ele?.title}

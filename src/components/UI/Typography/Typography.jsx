@@ -21,6 +21,8 @@ export const Typography = ({ primary, color, props, text, size }) => {
 };
 
 Typography.propTypes = {
+  key: PropTypes.string,
+  props: PropTypes.string,
   primary: PropTypes.bool,
   color: PropTypes.string,
   size: PropTypes.oneOf(["heading", "subheading", "paragraph"]).isRequired,
