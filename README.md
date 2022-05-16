@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Techwondeo_ Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello Coder 👋
 
-## Available Scripts
+## How to start the project 
 
-In the project directory, you can run:
+1) Run `npm install` to download all packages 👍
 
-### `npm start`
+Facing any issue with dependencies ? 👇
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Here's one Fix -
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1) Delete the dev dependencies from package.json
+2) Run `npm install` to delete the react app
+3) Run `npx sb init` to initialize the storybook on the project
+4) And boom the project is working fine now.
 
-### `npm test`
+2) Run `npm start` to run the react app on [http://localhost:3000](http://localhost:3000) 👈
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3) Run `npm run storybook` to run the storybook on localhost
 
-### `npm run build`
+## How the deployment is done
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is using `CI CD` flow of `Netlify` to get hosted everytime. 😎
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-> Every PR is checked based on it's headers and rules being defined.
+<br>
+-> A Preview of the same is created to show if the project would be working fine if hosted. 👌
+<br>
+-> The master branch is connected to the hosting service and as any change is pushed. It gets deployed.
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Cool right ?
 
-### `npm run eject`
+## What are there on the project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1) The Project is using `storybook` for styling of each components
+<br>
+2) The file structure involves-
+<br>
+<br>
+src
+<br>
+&nbsp;|-----components
+<br>
+&nbsp;      &nbsp;|-----------subComponent
+      <br>
+&nbsp;      &nbsp;            &nbsp;|------Each Component
+                  <br>
+&nbsp;      &nbsp;            &nbsp;       &nbsp;|----JSX file
+                         <br>
+&nbsp;      &nbsp;            &nbsp;       &nbsp;|----CSS file
+                         <br>
+&nbsp;      &nbsp;            &nbsp;       &nbsp;|----.stories.js file
+                         <br>
+&nbsp;&nbsp;      |-----------UI
+      <br>
+&nbsp;       &nbsp;           |------Button
+                  <br>
+&nbsp;       &nbsp;           |------Typography
+                  <br>
+&nbsp;|-----pages
+<br>
+&nbsp;      &nbsp;|-----------Landing
+      <br>
+&nbsp;      &nbsp;            &nbsp;|---------Home
+                  <br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2) Eslint and Prettier are configured on the project
+3) Themeing is done with 2 colours primary and secondary
+4) Page is hosted on Netlify
+5) Each section and subsections are distributed for every page.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+That's all.
 
-## Learn More
+Hope I haven't bored too much.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding ! 😊
