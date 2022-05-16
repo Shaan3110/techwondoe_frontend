@@ -15,3 +15,11 @@
     text-align: center;
     word-wrap: break-word;
 }
+@media screen and (max-width:1000px){
+    .connectus_tagline{
+        width: 100%;
+    }
+    .contactus h1{
+        text-align: center;
+    }
+}

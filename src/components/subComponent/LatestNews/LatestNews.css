@@ -36,3 +36,32 @@
     justify-self: flex-end;
     cursor: pointer;
 }
+@media screen and (max-width:1200px){
+    .latestnews_sections{
+        flex-direction: column;
+        align-items: center;
+    }
+    .latestnews_section{
+        width:50%
+    }
+}
+@media screen and (max-width:500px){
+    .latestnews_section{
+        width:100%
+    }
+    .latestnews{
+        padding:3rem 1rem;
+    }
+    #news_image{
+        width: 80%;
+    }
+    .latestnews_head h1{
+        font-size: 20px;
+    }
+    .latestnews_head button{
+        font-size: 10px;
+    }
+    .latestnews_head{
+        align-items: center;
+    }
+}

@@ -23,3 +23,29 @@ header{
     justify-content: flex-end;
     height: 74px;
 }
+.hamburger{
+    display: none;
+    width: 100%;
+}
+@media screen and (max-width:1000px){
+    .navigation{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 1rem;
+        align-items: center;
+    }
+    .hamburger img{
+        width: 40px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .hamburger img{
+        width: 30px;
+        height: 20px;
+    }
+}
