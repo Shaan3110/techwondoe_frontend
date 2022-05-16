@@ -22,26 +22,44 @@ Fix -
 This project is using `CI CD` flow of `Netlify` to get hosted everytime. 
 
 -> Every PR is checked based on it's headers and rules being defined.
+<br>
 -> A Preview of the same is created to show if the project would be working fine if hosted.
+<br>
 -> The master branch is connected to the hosting service and as any change is pushed. It gets deployed.
+<br>
 
 Cool right ?
 
 ## What are there on the project
 
 1) The Project is using `storybook` for styling of each components
+<br>
 2) The file structure involves-
+<br>
 
 src
+<br>
 |-----components
+<br>
       |-----------subComponent
+      <br>
                   |------Each Component
+                  <br>
                          |----JSX file
+                         <br>
                          |----CSS file
+                         <br>
                          |----.stories.js file
+                         <br>
       |-----------UI
+      <br>
                   |------Button
+                  <br>
                   |------Typography
+                  <br>
 |-----pages
+<br>
       |-----------Landing
+      <br>
                   |---------Home
+                  <br>
