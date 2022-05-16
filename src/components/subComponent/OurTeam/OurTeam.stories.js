@@ -3,7 +3,7 @@ import React from 'react';
 import { OurTeam } from './OurTeam';
 
 export default {
-  title: 'OurTeam',
+  title: 'Our Team',
   component: OurTeam,
 };
 

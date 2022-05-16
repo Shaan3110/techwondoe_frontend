@@ -1,0 +1,25 @@
+.ourteam{
+    display: flex;
+    justify-content: space-evenly;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem 0rem;
+}
+.ourteam_details{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.ourteam_details h1{
+    font-size: 16px;
+}
+.head_ourteam h1{
+    font-weight: 600;
+}
+.main_head_ourteam h1{
+    font-size: 40px;
+}
+.ourteam_button{
+    width: 30%;
+    margin: 6px;
+}
