@@ -9,5 +9,5 @@ export default {
 
 const Template = (args) => <Header {...args} />;
 
-export const Landing = Template.bind({});
-Landing.args = {};
+export const header = Template.bind({});
+header.args = {};

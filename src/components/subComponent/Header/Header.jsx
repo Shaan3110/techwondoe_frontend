@@ -1,10 +1,9 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./Header.css";
 import { Typography } from "../../UI/Typography/Typography";
 import arrow from '../../../assets/images/arrow.png'
 
-export const Header = ({}) => (
+export const Header = () => (
   <header>
     <div className="navigation">
         <div className="elements">
@@ -31,10 +30,3 @@ export const Header = ({}) => (
     </div>
   </header>
 );
-
-Header.propTypes = {
-};
-
-Header.defaultProps = {
-  
-};
