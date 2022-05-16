@@ -39,27 +39,27 @@ Cool right ?
 
 src
 <br>
-|-----components
+&nbsp;|-----components
 <br>
-      |-----------subComponent
+&nbsp;      &nbsp;|-----------subComponent
       <br>
-                  |------Each Component
+&nbsp;      &nbsp;            &nbsp;|------Each Component
                   <br>
-                         |----JSX file
+&nbsp;      &nbsp;            &nbsp;       &nbsp;|----JSX file
                          <br>
-                         |----CSS file
+&nbsp;      &nbsp;            &nbsp;       &nbsp;|----CSS file
                          <br>
-                         |----.stories.js file
+&nbsp;      &nbsp;            &nbsp;       &nbsp;|----.stories.js file
                          <br>
-      |-----------UI
+&nbsp;&nbsp;      |-----------UI
       <br>
-                  |------Button
+&nbsp;       &nbsp;           |------Button
                   <br>
-                  |------Typography
+&nbsp;       &nbsp;           |------Typography
                   <br>
-|-----pages
+&nbsp;|-----pages
 <br>
-      |-----------Landing
+&nbsp;      &nbsp;|-----------Landing
       <br>
-                  |---------Home
+&nbsp;      &nbsp;            &nbsp;|---------Home
                   <br>
