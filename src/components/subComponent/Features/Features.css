@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 6rem 0rem;
 }
 .features h1{
     margin: 1rem 0rem;
