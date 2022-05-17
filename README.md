@@ -29,6 +29,7 @@ This project is using `CI CD` flow of `Netlify` to get hosted everytime. 😎
 <br>
 -> The master branch is connected to the hosting service and as any change is pushed. It gets deployed.
 <br>
+-> Here's the link - [https://techwondoefrontend.netlify.app/](https://techwondoefrontend.netlify.app/)
 
 Cool right ?
 
